@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="keywords" content="Diego Becerra Camacho">
+    <meta name="description" content="Biografia, Musica, Fotos, Tablas">
+    <meta name="author" content="Diego Alonso Becerra Camacho">
+    <meta http-equiv="refresh" content="30">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="estilos.css">
+    <title>Contacto</title>
+</head> 
+<body>
+    <!--Diego Alonso Becerra Camacho -->
+    <!--9 de febrero de 2023-->
+
+    <div class="color1">
+        <div class="wrapper">
+            
+            <ul>
+                <li><a href="index.html">Index &#127969</a></li>
+                <li><a href="bio.html">Bio &#9749</a></li>
+                <li><a href="music.html">Music &#127812</a></li>
+                <li><a href="fotos.html">Fotos &#127776</a></li>
+                <li><a href="tablas.html">Tablas &#127915</a></li>
+            </ul>
+            <div class="menuselected">
+                Contacto &#128172
+            </div>
+            <ul>
+                <li><a href="losparientes.html">Parientes &#128106</a></li>
+            </ul>
+
+        </div>
+        <h1> Contacto a mi </h1>   
+    </div>
+    <h3> Formulario</h3>
+    <p> Completa los campos de informacion para enviar un correo de contacto, a continuaion el formulario: </p>
+
+    <div class="color1">
+        <br>
+    <form method="post" action="mailto:21325050510593@cbtis051.edu.mx" >
+        <label for="fnombre"> Nombre: </label> <br>
+        <input type="text" id="fnombre" name="fnombre" size="60" maxlength="60" placeholder="Nombre - Apellido Paterno - Apellido Materno" autofocus>
+        <br>
+        <label for="fpassword">Contraseña:</label> <br>
+        <input type="password" name="fpassword" id="fpassword">
+        <br>
+        <label for="fcorreo"> Correo electronico: </label> <br>
+        <input type="email" name="fcorreo" id="fcorreo" placeholder="usuario@correo.com">
+        <br>
+        <label for="fcabello">Color de cabello: </label> <br>
+        <input type="color" id="favcolor" name="favcolor" value="#000000">
+        <br>
+        <label for="fpromedio">Cual es tu promedio escolar?</label><br>
+        <input type="number" name="quantity" id="quantity" min="0" max="10" step=".1" value="8">
+        <br>
+        <label for="fgusto">Grado de satisfaccion con tu escuela?</label> <br>
+        <input type="range" name="fgusto" id="fgusto">
+        <br>
+        <label for="fcel">Numero de celular: </label>
+        <input type="tel" name="cel" id="cel" pattern="[0-9]{3} [0-9]{3} [0-9]{4}">
+        <br>
+        <label for="ffoto">Sube tu foto:</label><br>
+        <input type="file" name="miarchivo" id="miarchivo">
+        <br>
+        <label for="fcumpleaños">Cumpleaños:</label> <br>
+        <input type="datetime-local" name="Cumpleaños" id="Cumpleaños" min="1900-01-01">
+        <br>
+        <br><br>
+        <fieldset>
+            <label for="fgenero"> Genero: </label><br>
+            <input type="radio" name="genero" id="masculino" value="Masculino">
+            <label for="Masculino">Masculino</label>   
+            <br>
+            <input type="radio" name="genero" id="femenino" value="Femenino">
+            <label for="Femenino">Femenino</label>
+        </fieldset>
+        <br><br>
+        <label for="fpreferencia"> Que prefieres:  </label> <br>
+        <input type="checkbox" name="Preferencia1" id="Preferencia1" value="Sushi">
+        <label for="Sushi">Sushi</label><br>
+        <input type="checkbox" name="Preferencia2" id="Preferencia2" value="Pizza">
+        <label for="Pizza">Pizza</label><br>
+        <input type="checkbox" name="Preferencia3" id="Preferencia3" value="Tacos">
+        <label for="Pizza">Tacos</label><br>
+        <br><br>
+        <label for="festados"> Selecciona el estado de donde eres: </label> <br>
+        <select name="Estados" id="Estados">
+            <option value="Aguascalientes">Aguascalientes</option>
+            <option value="BajaCalifornia">Baja California</option>
+            <option value="BajaCaliforniaSur">Baja California Sur</option>
+            <option value="Campeche">Campeche</option>
+            <option value="Coahuila">Coahuila</option>
+            <option value="Colima">Colima</option>
+            <option value="Chiapas">Chiapas</option>
+            <option value="Chihuahua">Chihuahua</option>
+            <option value="Durango">Durango</option>
+            <option value="DistritoFederal">Distrito Federal</option>
+            <option value="Guanajuato">Guanajuato</option>
+            <option value="Guerrero">Guerrero</option>
+            <option value="Hidalgo">Hidalgo</option>
+            <option value="Jalisco">Jalisco</option>
+            <option value="Mexico">Mexico</option>
+            <option value="Michoacan">Michoacan</option>
+            <option value="Morelos">Morelos</option>
+            <option value="Nayarit">Nayarit</option>
+            <option value="NuevoLeon">Nuevo Leon</option>
+            <option value="Oaxaca">Oaxaca</option>
+            <option value="Puebla">Puebla</option>
+            <option value="Queretaro">Queretaro</option>
+            <option value="QuintanaRoo">Quintana Roo</option>
+            <option value="SanLuisPotosi">San Luis Potosi</option>
+            <option value="Sinaloa">Sinaloa</option>
+            <option value="Sonora">Sonora</option>
+            <option value="Tabasco">Tabasco</option>
+            <option value="Tamaulipas">Tamaulipas</option>
+            <option value="Tlaxcala">Tlaxcala</option>
+            <option value="Veracruz">Veracruz</option>
+            <option value="Yucatan">Yucatan</option>
+            <option value="Zacatecas">Zacatecas</option>
+
+        </select> <br>
+        <label for="Ciudad">Escribe o elige tu ciudad</label><br>
+        <input list="Ciudad">
+        <datalist id="Ciudad">
+        <option value="Los Mochis">
+        <option value="Culiacán">
+        <option value="Mazatlán">
+        <option value="Concordia">
+        <option value="Escuinapa">
+        </datalist>
+        <br><br>
+        <button type="button" onclick="alert('Picaste el bton')">Boton</button>
+        <br><br>
+        <label for="fcomentarios">Comentarios:</label><br>
+        <textarea name="Comentarios" id="Comentarios" cols="30" rows="10"></textarea>
+        <br> <br>
+        <input type="submit" value="ENVIAR"> 
+        <input type="image" src="Fotos/botonfoto.png" alt="enviarbutton" style="width: 60px; height: 28px; ">
+        <input type="reset" value="LIMPIAR">
+        <br>  <br>
+    </form>
+    </div+> 
+</body>
+</html>
